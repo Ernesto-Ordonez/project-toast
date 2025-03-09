@@ -16,6 +16,9 @@
     "react-feather": "2.0.10",
     "rimraf": "^5.0.1"
   },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  },
   "scripts": {
     "predev": "rimraf .parcel-cache dist",
     "dev": "parcel public/index.html",
